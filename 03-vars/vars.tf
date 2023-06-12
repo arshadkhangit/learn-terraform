@@ -13,3 +13,7 @@ output "sample" {
 output "sample1" {
   value = var.sample1
 }
+
+output "sample-exc" {
+  value = "value of sample - ${var.sample}"
+}
