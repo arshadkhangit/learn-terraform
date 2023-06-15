@@ -39,3 +39,7 @@ variable "courses" {
     "python"
   ]
 }
+
+output "course" {
+  value = "var.course"
+}
