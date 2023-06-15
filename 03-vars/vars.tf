@@ -17,3 +17,25 @@ output "sample1" {
 output "sample-exc" {
   value = "value of sample - ${var.sample}"
 }
+
+
+#variable data types
+#1.String
+#2.Number
+#3.Boolean
+
+#in ansible  1.Plain key.value 2.list 3.map/dict
+#in terraform 1.plain 2.list 3.map
+#1.plain
+variable "course" {
+  default = "devops training"
+}
+
+#2.list
+variable "courses" {
+  default = [
+    "devops",
+    "aws",
+    "python"
+  ]
+}
