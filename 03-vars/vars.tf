@@ -39,7 +39,30 @@ variable "courses" {
     "python"
   ]
 }
+#3.map
+variable "course_details" {
+  default = {
+    devops ={
+      name = "devops"
+      time = "10am"
+      duration = 90
+    }
+    aws ={
+      name = "aws"
+      time = "11am"
+      duration = 60
+    }
+  }
+}
 
 output "course" {
   value = var.course
+}
+
+output "courses" {
+  value = var.courses
+}
+
+output "course_details" {
+  value = var.course_details.devops
 }
