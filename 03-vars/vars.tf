@@ -41,5 +41,5 @@ variable "courses" {
 }
 
 output "course" {
-  value = "var.course"
+  value = var.course
 }
