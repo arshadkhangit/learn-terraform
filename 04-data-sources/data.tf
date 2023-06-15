@@ -13,7 +13,7 @@ output "price" {
 }
 
 data "aws_security_group" "selected" {
-  id = "allow-all"
+  id = "sg-allow-all"
 }
 
 output "sgid" {
