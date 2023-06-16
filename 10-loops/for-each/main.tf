@@ -17,7 +17,6 @@ variable "instances" {
   default = {
     frontend = {
       name = "frontend",
-
     }
     catalogue = {
       name = "catalogue"
