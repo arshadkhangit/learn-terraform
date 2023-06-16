@@ -34,5 +34,5 @@ output "aws-topics" {
 }
 
 output "fruit-0" {
-  value = var.fruits[0]
+  value = var.fruits[2]
 }
