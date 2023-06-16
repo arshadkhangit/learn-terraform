@@ -13,3 +13,6 @@ data "aws_ami" "example"{
   name_regex = "Centos-8-DevOps-Practice"
 }
 
+variable "instances" {
+  default = ["frontend", "catalogue", "cart"]
+}
