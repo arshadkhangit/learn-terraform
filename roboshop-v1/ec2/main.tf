@@ -47,7 +47,6 @@ resource "aws_security_group" "sg" {
 
 
   ingress {
-    description      = "SSH"
     from_port        = 0
     to_port          = 0
     protocol         = "-1"
