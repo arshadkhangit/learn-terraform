@@ -6,6 +6,7 @@ module "instances" {
 
 variable "instances" {
   default = {
+
     frontend = {}
     mongodb = {}
     catalogue = {}
